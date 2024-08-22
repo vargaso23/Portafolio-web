@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mi portafolio</title>
+    <link rel="shortcut icon" href="img/portafolio.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/Portafolio.css">
+
+</head>
+
+<body>
+
+    <div class="contenido">
+        <header class="header ">
+            <nav class="lista">
+                <h1>Alejandra Vargas Bernal</h1>
+                <a href="https://github.com/vargaso23"><img src="img/github.png" alt="Inicio"> </a>
+                <a href="https://mail.google.com"><img src="img/gmail.png" alt="Inicio"> </a>
+                <a href="#"><img src="img/mujer.png" alt="Inicio"> </a>
+            </nav>
+        </header>
+
+        <main class="main">
+            <section class="formulario ">
+                <h1 class="titulo">Formulario </h1>
+                <p>¿Algo te inquieta? ¡Escríbenos! Aquí te dejamos un formulario para que nos cuentes.</p>
+                <form class="form border" action="login.html">
+
+                    <div>
+                        <label for="nombre">Ingrese su Nombre</label> <br>
+                        <input id="nombre" type="text" name="nombre" placeholder="Tania Alejandra">
+                    </div>
+
+                    <div>
+                        <label for="Apellido">Ingrese su apellido</label><br>
+                        <input id="apellido" type="text" placeholder="Vargas" required>
+                    </div>
+
+                    <div>
+                        <fieldset>
+                            <legend>selecciona genero</legend>
+                            <input type="radio" name="genero" value="Masculino">Masculino
+                            <input type="radio" name="genero" value="Femenino">Femenino
+                            <input type="radio" name="genero" value="No sabe ">No sabe
+                        </fieldset>
+
+                    </div>
+                    <br>
+                    <div>
+                        <label for="fecha">Fecha de nacimiento</label>
+                        <input type="date" name="fecha" id="fecha">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="tel">ingrese tu numero telefonico</label><br>
+                        <input id="tel" type="tel">
+                    </div>
+                    <div>
+                        <label for="pais">selecciona tu pais
+
+                        </label>
+                        <select name="pais" id="pais">
+                            <option Colombia="">Colombia</option>
+                            <option value="Ecuador">Ecuador</option>
+                            <option value="Brasil">Brasil</option>
+                            <option value="Guatemala">Guatemala</option>
+                            <option value="Venezuela">Venezuela</option>
+                            <option value="Mexico">Mexico</option>
+
+                        </select>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="Mensaje">Escriba un mensaje</label> <br>
+                        <textarea name="Mensaje" id="Mensaje">escribe tu duda aqui</textarea>
+
+                    </div>
+                    <div>
+                        <label for="email">ingrese su email</label><br>
+                        <input id="email" type="email">
+                    </div>
+                    <button>enviar</button>
+                </form>
+            </section>
+            <section class="item">
+                <aside>
+                    <ul>
+                        <h1>Mi Portafolio</h1>
+                        <li><a href="index.html">Acerca de mi </a></li>
+                        <li><a href="estudios.html">Estudios </a></li>
+                        <li><a href="contactos.html">Contacto </a></li>
+                        <li><a href="formulario.html">Formulario </a></li>
+                    </ul>
+                </aside>
+            </section>
+
+        </main>
+
+
+
+        <footer class="footer">
+
+        </footer>
+    </div>
+</body>
+
+</html>
